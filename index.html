@@ -9,30 +9,31 @@
         <meta name="keywords" content="slot-machine, one-armed-bandit, game, js">
         <title>Slot Machine</title>
         
-        <link rel="stylesheet" href="style/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div class="wrap">
             <h1>One Armed Bandit</h1>
+            <section class="game">
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+            </section>
+            <section class="play">
+                <input type="number" placeholder="Enter the rate" id="bid">
+                <button id="start">Play!</button>
+            </section>
+            <section class="panel">
+                YOUR MONEY: <span class="wallet"></span>
+            </section>
+            <section class="score">
+                <span class="result"></span>
+                PLAYED: <span class="number"></span> GAMES,
+                WON: <span class="win"></span>, 
+                LOSED: <span class="loss"></span>
+            </section>
         </div>
-        <section class="game">
-            <div class="color"></div>
-            <div class="color"></div>
-            <div class="color"></div>
-        </section>
-        <section class="play">
-            <input type="number" placeholder="Enter the rate" id="bid">
-            <button id="start">Play!</button>
-        </section>
-        <section class="panel">
-            YOUR MONEY: <span class="wallet"></span>
-        </section>
-        <section class="score">
-            <span class="result"></span>
-            PLAYED: <span class="number"></span> GAMES,
-            WON: <span class="win"></span>, 
-            LOSED: <span class="loss"></span>
-        </section>
         
         <script src="js/script.js"></script>
     </body>

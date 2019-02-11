@@ -17,13 +17,15 @@ h1 {
 }
 
 .game {
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 3vh;
 }
 
 .game div {
   height: 30vh;
-  flex-grow: 1;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
   margin: 10px;
   border: 3px solid #444;
 }
@@ -85,5 +87,4 @@ h1 {
     padding: 0 20px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.prefixed.css.map */
