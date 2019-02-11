@@ -1,0 +1,39 @@
+<!DOTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta charset="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Mateusz Michalczyk">
+        <meta name="description" content="Slot machine game">
+        <meta name="keywords" content="slot-machine, one-armed-bandit, game, js">
+        <title>Slot Machine</title>
+        
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <div class="wrap">
+            <h1>One Armed Bandit</h1>
+        </div>
+        <section class="game">
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+        </section>
+        <section class="play">
+            <input type="number" placeholder="Enter the rate" id="bid">
+            <button id="start">Play!</button>
+        </section>
+        <section class="panel">
+            YOUR MONEY: <span class="wallet"></span>
+        </section>
+        <section class="score">
+            <span class="result"></span>
+            PLAYED: <span class="number"></span> GAMES,
+            WON: <span class="win"></span>, 
+            LOSED: <span class="loss"></span>
+        </section>
+        
+        <script src="js/script.js"></script>
+    </body>
+</html>
